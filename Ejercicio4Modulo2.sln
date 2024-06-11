@@ -5,6 +5,13 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4Modulo2", "Ejercicio4Modulo2\Ejercicio4Modulo2.csproj", "{1B3996B0-D138-42A7-ABC3-B72EE106E38D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F004E8B1-AD27-4AC4-8DB1-61E730633955}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		sapassword.env = sapassword.env
+		sqlserver.env = sqlserver.env
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
